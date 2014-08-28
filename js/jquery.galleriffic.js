@@ -760,7 +760,7 @@
 
 				// Show/Hide thumbs
 				var $thumbsUl = this.find('ul.thumbs');
-				$thumbsUl.find('li').each(function(i) {
+				$thumbsUl.children('li').each(function(i) {
 					var $li = $(this);
 					if (i >= startIndex && i <= stopIndex) {
 						$li.show();
